@@ -4,20 +4,53 @@
  <title>moon's artist</title>
  <meta charset="utf-8"
 </head>
+<style>
+ body{ margin: 0;}
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    border:8px solid gray;
+    margin: 5;
+    padding: 20px;
+    }
+  ol{
+    border-right: 2px solid gray;
+    width:100px;
+    margin:0;
+    padding: 20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    text-align: center;
+  }
+  #grid ol
+  { padding-left: 33px;}
+  #grid #article{
+    padding-left: 25px;
+  }
+  </style>
 <body>
   <h1><a href="index.html">KO MOON KYEONG</a></h1>
- <ol>
-  <li><a href="1.html">좋아하는 노래</a></li>
-  <li><a href="2.html">좋아하는 가수</a></li>
-  <li><a href="3.html">좋아하는 도시</a></li>
+<div= id="grid">
+  <ol>
+  <li><a href="1.html">Favorite Song</a></li><br>
+  <li><a href="2.html">Favorite Artist</a></li><br>
+  <li><a href="3.html">Favorite City</a></li><br>
  </ol>
-
-<h2>좋아하는 가수</h2>
-<h3>방탄소년단</h3>
-<h4><strong>방탄소년단은 대한민국의 7인조 보이그룹.</strong></h4>
-<img src="방탄소년단.jpg" width="100%">
-<p><br>전 세계에 걸친 거대한 팬덤을 바탕으로 각종 경제적, 문화적 신드롬을 일으키면서 K-POP 역사를 넘어 대한민국의 대중문화 역사에도 새롭게 한 획을 그은 최정상급 아이돌 그룹으로 높은 평가를 받고 있다.</p>
-<p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/gwMa6gpoE9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+<div id="article">
+ <h2>좋아하는 가수</h2>
+ <h3>방탄소년단</h3>
+ <h4><strong>방탄소년단은 대한민국의 7인조 보이그룹.</strong></h4>
+ <img src="방탄소년단.jpg" width="100%">
+ <p><br>전 세계에 걸친 거대한 팬덤을 바탕으로 각종 경제적, 문화적 신드롬을 일으키면서 K-POP 역사를 넘어 대한민국의 대중문화 역사에도 새롭게 한 획을 그은 최정상급 아이돌 그룹으로 높은 평가를 받고 있다.</p>
+ <p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/gwMa6gpoE9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </p>
+</div>
+</div>
 </body>
 </html>

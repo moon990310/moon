@@ -2,25 +2,63 @@
 <html>
 <head>
  <title>moon's song</title>
- <meta charset="utf-8"
+ <meta charset="utf-8">
+ <style>
+ body { margin: 0;
+ }
+   a {
+     color: black;
+     text-decoration: none;
+   }
+   h1 {
+     font-size: 45px;
+     text-align: center;
+     border:8px solid gray;
+     margin: 5;
+     padding: 20px;
+   }
+   ol{
+     border-right: 2px solid gray;
+     width:100px;
+     margin:0;
+     padding: 20px;
+   }
+   #grid{
+     display: grid;
+     grid-template-columns: 150px 1fr;
+     text-align: center;
+   }
+   #grid ol{ padding-left: 33px;}
+   #grid #article{
+     padding-left: 25px;
+   }
+ </style>
 </head>
 <body>
-  <h1><a href="index.html">KO MOON KYEONG</h1>
- <ol>
-  <li><a href="1.html">좋아하는 노래</a></li>
-  <li><a href="2.html">좋아하는 가수</a></li>
-  <li><a href="3.html">좋아하는 도시</a></li>
- </ol>
-
-<h2>좋아하는 노래</h2>
-<h3>백예린-0310</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jpcxOcE4vRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><h4>Every letter I sent you.
-백예린
-<br>발매일 : 2019.12.10
-<br>장르 : R&B/Soul
-<br>발매사 : Dreamus
-<br>기획사 : 블루바이닐</h4>
-
+  <h1><a href="index.html">KO MOON KYEONG</a></h1>
+<div id="grid">
+  <ol>
+   <li><a href="1.html">Favorite Song</a></li><br>
+   <li><a href="2.html">Favorite Artist</a></li><br>
+   <li><a href="3.html">Favorite City</a></li><br>
+  </ol>
+  <div id="article">
+   <h2>좋아하는 노래</h2>
+   <p><h3>백예린-0310</h3><br><br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/jpcxOcE4vRo" frameborder="0"
+   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <br>
+  <h4> Every letter I sent you.
+   백예린
+   <br>발매일 : 2019.12.10
+   <br>장르 : R&B/Soul</h4></p>
+   <p> <br><br><br><br><br><br><h3>IU- Love poem</h3><br><br><br><br>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/zi3XVBO9y78"
+     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <h4>Love poem<br>
+발매일 : 2019.11.01<br>
+장르 : 록/메탈 </h4></p>
+  </div>
+</div>
 </body>
 </html>
